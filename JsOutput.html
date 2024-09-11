@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Practice website</title>
+</head>
+
+<body>
+
+<h2 id="content"></h2>
+<button type="button" onclick="ShowMessage()">Click</button>
+</body>
+</html>
+
+<script>
+    function ShowMessage() {
+        alert("Xin chao!")
+        var text="Hello World!";
+        document.getElementById("content").innerHTML=text;
+        document.write(text)
+        console.log("Xin chao!")
+    }
+</script>
